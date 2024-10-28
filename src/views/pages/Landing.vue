@@ -1,6 +1,19 @@
 <template>
 
 	<div id="page">
+		<div id="music-player" class="music-player">
+      <button @click="toggleMusic" :class="{ 'playing': isPlaying }">
+        <svg class="music-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="5.5" cy="17.5" r="2.5"/>
+          <circle cx="17.5" cy="15.5" r="2.5"/>
+          <path d="M8 17V5l12-2v12"/>
+        </svg>
+      </button>
+      <audio ref="audioPlayer" loop>
+        <source src="/satubulan.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
 		
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -491,6 +504,29 @@ onMounted(async () => {
 });
 
 
+// ... existing imports and code ...
+
+const audioPlayer = ref(null);
+const isPlaying = ref(false);
+
+const toggleMusic = () => {
+  if (audioPlayer.value) {
+    if (isPlaying.value) {
+      audioPlayer.value.pause();
+    } else {
+      audioPlayer.value.play();
+    }
+    isPlaying.value = !isPlaying.value;
+  }
+};
+
+onMounted(() => {
+  // ... existing onMounted code ...
+
+  // Initialize audio player
+  audioPlayer.value = document.querySelector('#music-player audio');
+});
+
 </script>
 
 
@@ -507,4 +543,63 @@ body.lock-scroll {
     padding: 5px;     /* Mengatur jarak di sekitar countdown */
 }
 
+.music-player {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.music-player button {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-player button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.music-icon {
+  width: 24px;
+  height: 24px;
+  color: #F14E95;
+  transition: transform 0.3s ease;
+}
+
+.music-player button.playing .music-icon {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.music-player button.playing {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(241, 78, 149, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(241, 78, 149, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(241, 78, 149, 0);
+  }
+}
 </style>
