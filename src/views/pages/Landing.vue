@@ -1,6 +1,7 @@
 <template>
 
 	<div id="page">
+		
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
@@ -488,6 +489,8 @@ onMounted(async () => {
   const guestName = getParameterByName('u');
   guestNameElement.textContent += guestName ? ` ${guestName}` : ' Tamu Terhormat';
 });
+
+
 </script>
 
 
