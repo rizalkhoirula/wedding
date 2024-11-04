@@ -2,18 +2,17 @@
 
 	<div id="page">
 		<div id="music-player" class="music-player">
-      <button @click="toggleMusic" :class="{ 'playing': isPlaying }">
-        <svg class="music-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="5.5" cy="17.5" r="2.5"/>
-          <circle cx="17.5" cy="15.5" r="2.5"/>
-          <path d="M8 17V5l12-2v12"/>
-        </svg>
-      </button>
-      <audio ref="audioPlayer" loop>
-        <source src="/satubulan.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
+    <button @click="toggleMusic" :class="{ 'playing': isPlaying }">
+      <svg class="music-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="5.5" cy="17.5" r="2.5"/>
+        <circle cx="17.5" cy="15.5" r="2.5"/>
+        <path d="M8 17V5l12-2v12"/>
+      </svg>
+    </button>
+    <audio ref="audioPlayer" loop>
+      <source src="/satubulan.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 		
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -57,14 +56,20 @@
     <div class="couple-wrap animate-box">
       <div class="couple-half">
         <div class="groom">
-          <img src="\images\couple1.jpg"class="img-responsive">
+          <img src="\images\couple1.jpg" class="img-responsive">
         </div>
         <div class="desc-groom">
           <h3>Joefrey Mahusay</h3>
           <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
         </div>
       </div>
-      <p class="heart text-center"><i class="icon-heart2"></i></p>
+      
+      <div class="heart-wrapper text-center">
+        <div class="heart">
+          <i class="icon-heart2"></i>
+        </div>
+      </div>
+
       <div class="couple-half">
         <div class="bride">
           <img src="\images\couple2.jpg" class="img-responsive">
@@ -77,6 +82,7 @@
     </div>
   </div>
 </div>
+
 
 	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
 		<div class="overlay"></div>
@@ -504,8 +510,6 @@ onMounted(async () => {
 });
 
 
-// ... existing imports and code ...
-
 const audioPlayer = ref(null);
 const isPlaying = ref(false);
 
@@ -520,27 +524,36 @@ const toggleMusic = () => {
   }
 };
 
-onMounted(() => {
-  // ... existing onMounted code ...
+const playAudio = () => {
+  if (audioPlayer.value && !isPlaying.value) {
+    audioPlayer.value.play()
+      .then(() => {
+        isPlaying.value = true;
+      })
+      .catch(error => {
+        console.log("Audio playback failed:", error);
+      });
+  }
+};
 
+onMounted(() => {
   // Initialize audio player
   audioPlayer.value = document.querySelector('#music-player audio');
+
+  // Add click event listener to the document
+  document.addEventListener('click', playAudio, { once: true });
 });
 
 </script>
-
-
-
-
 
 <style>
 body.lock-scroll {
   overflow: hidden;
 }
 .simply-countdown {
-    font-size: 5px; /* Atur ukuran countdown agar lebih kecil */
-    line-height: 1;   /* Mengurangi jarak antar baris */
-    padding: 5px;     /* Mengatur jarak di sekitar countdown */
+    font-size: 5px; 
+    line-height: 1;   
+    padding: 5px;     
 }
 
 .music-player {
@@ -602,4 +615,10 @@ body.lock-scroll {
     box-shadow: 0 0 0 0 rgba(241, 78, 149, 0);
   }
 }
+
+/* Ensure other buttons don't get affected by the pulse animation */
+button:not(.music-player button) {
+  animation: none !important;
+}
+
 </style>
