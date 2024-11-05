@@ -56,7 +56,7 @@
     <div class="couple-wrap animate-box">
       <div class="couple-half">
         <div class="groom">
-          <img src="\images\couple1.jpg" class="img-responsive">
+          <img src="\images\4.jpg" class="img-responsive">
         </div>
         <div class="desc-groom">
           <h3>Joefrey Mahusay</h3>
@@ -72,7 +72,7 @@
 
       <div class="couple-half">
         <div class="bride">
-          <img src="\images\couple2.jpg" class="img-responsive">
+          <img src="\images\4.jpg" class="img-responsive">
         </div>
         <div class="desc-bride">
           <h3>Sheila Mahusay</h3>
