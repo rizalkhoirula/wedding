@@ -10,7 +10,7 @@
       </svg>
     </button>
     <audio ref="audioPlayer" loop>
-      <source src="/satubulan.mp3" type="audio/mpeg">
+      <source src="/weddingsong.mp3" type="audio/mpeg">
     </audio>
   </div>
 		
