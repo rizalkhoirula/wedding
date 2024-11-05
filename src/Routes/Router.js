@@ -1,7 +1,7 @@
 // src/router.js
 import { createRouter, createWebHistory } from 'vue-router';
 import Landing from '../views/pages/Landing.vue';
-import dashboard from '../views/pages/dashboard.vue';
+import dashboard from '../views/pages/Dashboard.vue';
 
 const routes = [
   {
