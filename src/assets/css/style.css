@@ -823,10 +823,12 @@ form label {
 }
 @media screen and (max-width: 768px) {
   #fh5co-header {
-      height: 100vh; /* Tetap menjaga tinggi header di handphone */
+      height: 100vh;
+      background-size: cover;
+      background-position: -90px center ;
   }
-
 }
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
