@@ -346,6 +346,22 @@
                         <label for="wish" class="sr-only">Your Wish</label>
                         <textarea v-model="wish" class="form-control" id="wish" placeholder="Your wish..." rows="2" required></textarea>
                     </div>
+                    <div class="form-group col-md-4 col-sm-4">
+    <label>Apakah Anda Berkenan Hadir</label><br>
+    <input type="radio" id="hadir" value="Hadir" v-model="kehadiran">
+    <label for="hadir">Hadir</label>
+    <input type="radio" id="tidakHadir" value="Tidak Hadir" v-model="kehadiran">
+    <label for="tidakHadir">Tidak Hadir</label>
+</div>
+
+<div class="form-group col-md-4 col-sm-4">
+    <label>Jumlah Tamu</label><br>
+    <input type="radio" id="tamu1" value="1" v-model="jumlahTamu">
+    <label for="tamu1">1</label>
+    <input type="radio" id="tamu2" value="2" v-model="jumlahTamu">
+    <label for="tamu2">2</label>
+</div>
+
                     <div class="col-md-12 text-center">
                         <button type="submit" class="btn btn-default">I am Attending</button>
                     </div>
@@ -619,6 +635,70 @@ body.lock-scroll {
 /* Ensure other buttons don't get affected by the pulse animation */
 button:not(.music-player button) {
   animation: none !important;
+}
+#fh5co-started {
+    padding: 50px 0;
+    background-size: cover;
+    color: white;
+}
+
+#fh5co-started .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+#fh5co-started h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+#fh5co-started p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#fh5co-started .form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#fh5co-started .form-control {
+    width: 100%;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+
+#fh5co-started .form-control::placeholder {
+    color: #555;
+}
+
+#fh5co-started label {
+    font-size: 16px;
+    color: white;
+}
+
+#fh5co-started input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+#fh5co-started label[for="hadir"],
+#fh5co-started label[for="tidakHadir"] {
+    margin-right: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+#fh5co-started textarea.form-control {
+    resize: none;
 }
 
 </style>
