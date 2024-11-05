@@ -33,7 +33,7 @@
         <div class="display-t">
           <div class="display-tc animate-box" data-animate-effect="fadeIn">
             <h1>Joefrey &amp; Sheila</h1>
-			<h2 id="guest-name">Kepada Yth: </h2> 
+			<!-- <h2 id="guest-name">Kepada Yth: </h2>  -->
 			<div class="simply-countdown simply-countdown-one"></div>
 			<br>
             <p><a href="#" id="unlock-button" class="btn btn-default btn-sm">Buka Undangan</a></p>
@@ -49,8 +49,8 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
         <h2>Hello!</h2>
-        <h3>November 28th, 2016 New York, USA</h3>
-        <p>We invited you to celebrate our wedding</p>
+        <h3>November 28th, 2024 New York, USA</h3>
+        <p>Kami mengundang Anda untuk merayakan hari bahagia pernikahan kami.</p>
       </div>
     </div>
     <div class="couple-wrap animate-box">
@@ -60,15 +60,15 @@
         </div>
         <div class="desc-groom">
           <h3>Joefrey Mahusay</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+          <p>Joefrey adalah sosok yang penuh semangat dan cinta. Dia telah menjadi bagian penting dalam hidupku dan sekarang kita siap untuk memulai perjalanan baru bersama.</p>
         </div>
       </div>
       
       <div class="heart-wrapper text-center">
-        <div class="heart">
-          <i class="icon-heart2"></i>
-        </div>
-      </div>
+  <div class="heart">
+    <i class="icon-heart"></i> <!-- Pastikan ini menggunakan kelas yang sesuai -->
+  </div>
+</div>
 
       <div class="couple-half">
         <div class="bride">
@@ -76,7 +76,7 @@
         </div>
         <div class="desc-bride">
           <h3>Sheila Mahusay</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+          <p>Sheila adalah wanita yang luar biasa dan penuh cinta. Bersama, kita akan mengukir kisah cinta yang tak terlupakan di hari pernikahan kita.</p>
         </div>
       </div>
     </div>
@@ -84,113 +84,113 @@
 </div>
 
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
-				</div>
-				
-			</div>
-			
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                <span>Our Special Events</span>
+                <h2>Wedding Events</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="display-t">
+                <div class="display-tc">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-6 col-sm-6 text-center">
+                            <div class="event-wrap animate-box">
+                                <h3>Main Ceremony</h3>
+                                <div class="event-col">
+                                    <i class="icon-clock"></i>
+                                    <span>4:00 PM</span>
+                                    <span>6:00 PM</span>
+                                </div>
+                                <div class="event-col">
+                                    <i class="icon-calendar"></i>
+                                    <span>Monday 28</span>
+                                    <span>November, 2024</span>
+                                </div>
+                                <p>Acara ini akan menjadi momen yang tidak terlupakan, di mana kita akan bersatu dalam cinta dan kebahagiaan. Mari rayakan cinta kita di tengah keindahan suasana yang penuh harapan.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 text-center">
+                            <div class="event-wrap animate-box">
+                                <h3>Wedding Party</h3>
+                                <div class="event-col">
+                                    <i class="icon-clock"></i>
+                                    <span>7:00 PM</span>
+                                    <span>12:00 AM</span>
+                                </div>
+                                <div class="event-col">
+                                    <i class="icon-calendar"></i>
+                                    <span>Monday 28</span>
+                                    <span>November, 2024</span>
+                                </div>
+                                <p>Rangkaian pesta ini adalah perayaan cinta yang akan kita bagi bersama keluarga dan sahabat. Bergembiralah dan nikmati setiap momen yang penuh keceriaan dan kebahagiaan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(./images/fm.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/fd.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(./images/rl.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div id="fh5co-couple-story">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                <span>We Love Each Other</span>
+                <h2>Our Story</h2>
+                <p>Di balik samudera kata, tersembunyi kisah-kisah yang indah dan penuh arti, menjauh dari hiruk pikuk dunia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0">
+                <ul class="timeline animate-box">
+                    <li class="animate-box">
+                        <div class="timeline-badge" style="background-image:url(./images/fm.jpg);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">First We Meet</h3>
+                                <span class="date">December 25, 2015</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Di suatu tempat yang jauh, di balik pegunungan kata-kata, terjalin pertemuan yang tak terlupakan. Seolah dunia hanya milik kita berdua.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted animate-box">
+                        <div class="timeline-badge" style="background-image:url(images/fd.jpg);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">First Date</h3>
+                                <span class="date">December 28, 2015</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Pertemuan pertama itu membawa kita ke cerita yang penuh kebahagiaan, seperti dua jiwa yang akhirnya menemukan tempatnya.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="animate-box">
+                        <div class="timeline-badge" style="background-image:url(./images/rl.jpg);"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">In A Relationship</h3>
+                                <span class="date">January 1, 2016</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Seiring waktu berlalu, kami menyadari bahwa hati ini saling terikat, membangun mimpi dan harapan bersama dalam kebersamaan yang indah.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
@@ -198,7 +198,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Memories</span>
 					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>Jauh di balik pegunungan kata-kata, tersembunyi cerita cinta yang indah, penuh makna, dan abadi selamanya.</p>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
@@ -208,16 +208,14 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/1.jpg); "> 
 						<a href="images/1.jpg">
 							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
+								
 							</div>
 						</a>
 					</li>
 					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/2.jpg); ">
 						<a href="#" class="color-2">
 							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
+								
 							</div>
 						</a>
 					</li>
@@ -226,16 +224,14 @@
 					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/3.jpg); ">
 						<a href="#" class="color-3">
 							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
+								
 							</div>
 						</a>
 					</li>
 					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/4.jpg); ">
 						<a href="#" class="color-4">
 							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
+								
 							</div>
 						</a>
 					</li>
@@ -243,16 +239,14 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/5.jpg); ">
 							<a href="#" class="color-3">
 								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
+									
 								</div>
 							</a>
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/6.jpg); ">
 							<a href="#" class="color-4">
 								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
+									
 								</div>
 							</a>
 						</li>
@@ -260,8 +254,7 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/7.jpg); ">
 							<a href="#" class="color-4">
 								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
+									
 								</div>
 							</a>
 						</li>
@@ -269,16 +262,14 @@
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/3.jpg); "> 
 							<a href="#" class="color-5">
 								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
+									
 								</div>
 							</a>
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/1.jpg); ">
 							<a href="#" class="color-6">
 								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
+									
 								</div>
 							</a>
 						</li>
@@ -356,14 +347,19 @@
 
 <div class="form-group col-md-4 col-sm-4">
     <label>Jumlah Tamu</label><br>
-    <input type="radio" id="tamu1" value="1" v-model="jumlahTamu">
-    <label for="tamu1">1</label>
-    <input type="radio" id="tamu2" value="2" v-model="jumlahTamu">
-    <label for="tamu2">2</label>
+    <div class="radio-option">
+        <input type="radio" id="tamu1" value="1" v-model="jumlahTamu">
+        <label for="tamu1">1</label>
+    </div>
+    <div class="radio-option">
+        <input type="radio" id="tamu2" value="2" v-model="jumlahTamu">
+        <label for="tamu2">2</label>
+    </div>
 </div>
 
+
                     <div class="col-md-12 text-center">
-                        <button type="submit" class="btn btn-default">I am Attending</button>
+                        <button type="submit" class="btn btn-default" disabled>I am Attending</button>
                     </div>
                 </form>
             </div>
@@ -379,8 +375,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; Rizal Khoirul Anam.</small> 
-						<small class="block">Designed by <a href="http://whatsapp.com/+6281230147253" target="_blank">Rizal Khoirul Anam </a> <br>Ayo beralih ke undangan online: <a href="http://rizalkhoirula.vercel.app/" target="_blank">Portofolio</a></small>
+						<small class="block">&copy; Digitals Wedding</small> 
+						<small class="block">Designed by <a href="https://wa.me/6281230147253?text=Kak%20saya%20mau%20buat%20undangan%20digital3" target="_blank">Digitals Wedding </a> <br>Ayo Beralih Ke Undangan Digital.</small>
 					</p>
 					
 				</div>
@@ -571,7 +567,7 @@ body.lock-scroll {
     line-height: 1;   
     padding: 5px;     
 }
-
+/* Music Player CSS */
 .music-player {
   position: fixed;
   bottom: 20px;
@@ -586,25 +582,25 @@ body.lock-scroll {
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease; /* Hanya transisi background */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .music-player button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9); /* Efek hover */
 }
 
 .music-icon {
   width: 24px;
   height: 24px;
-  color: #F14E95;
-  transition: transform 0.3s ease;
+  color: #F14E95; /* Warna pink untuk ikon musik */
+  transition: transform 0.3s ease; /* Hanya transformasi */
 }
 
 .music-player button.playing .music-icon {
-  animation: rotate 5s linear infinite;
+  animation: rotate 5s linear infinite; /* Hanya animasi rotasi */
 }
 
 @keyframes rotate {
@@ -616,66 +612,12 @@ body.lock-scroll {
   }
 }
 
+/* Menghapus efek pulse dan bayangan */
 .music-player button.playing {
-  animation: pulse 2s infinite;
+  /* Tidak ada animasi tambahan */
 }
 
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(241, 78, 149, 0.4);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(241, 78, 149, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(241, 78, 149, 0);
-  }
-}
 
-/* Ensure other buttons don't get affected by the pulse animation */
-button:not(.music-player button) {
-  animation: none !important;
-}
-#fh5co-started {
-    padding: 50px 0;
-    background-size: cover;
-    color: white;
-}
-
-#fh5co-started .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-}
-
-#fh5co-started h2 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-#fh5co-started p {
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-
-#fh5co-started .form-group {
-    margin-bottom: 15px;
-    position: relative;
-}
-
-#fh5co-started .form-control {
-    width: 100%;
-    padding: 10px 15px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #ddd;
-    border-radius: 0;
-}
 
 #fh5co-started .form-control::placeholder {
     color: #555;
@@ -699,6 +641,14 @@ button:not(.music-player button) {
 
 #fh5co-started textarea.form-control {
     resize: none;
+}
+.radio-option {
+    display: inline-block; /* Membuat elemen ditampilkan secara inline */
+    margin-right: 20px; /* Jarak kanan antar radio option */
+}
+
+.radio-option input {
+    margin-right: 5px; /* Jarak antara input dan label */
 }
 
 </style>
