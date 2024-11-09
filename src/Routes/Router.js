@@ -14,13 +14,11 @@ const routes = [
     path: '/mecky-lael',
     name: 'mecky-lael',
     component: meckylael,
+   
   },
-
-    
-
   {
-    path: '/dashboard',  
-    name: 'Dashboard',
+    path: '/mecky-lael/dashboard',
+    name: 'mecky-lael-dashboard',
     component: dashboard,
   },
 ];
