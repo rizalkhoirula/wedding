@@ -37,7 +37,7 @@
       id="fh5co-header"
       class="fh5co-cover"
       role="banner"
-      style="background-image: url(images/imgbgtest.jpg)"
+      style="background-image: url(images/mecky/bgheader1.jpg)"
       data-stellar-background-ratio="0.5"
     >
       <div class="overlay"></div>
@@ -81,7 +81,7 @@
         <div class="couple-wrap animate-box">
           <div class="couple-half">
             <div class="groom">
-              <img src="\images\4.jpg" class="img-responsive" />
+              <img src="\images\mecky\meckyprofile1.jpg" class="img-responsive" />
             </div>
             <div class="desc-groom">
               <h3>Mecky Lapian</h3>
@@ -100,7 +100,7 @@
 
           <div class="couple-half">
             <div class="bride">
-              <img src="\images\4.jpg" class="img-responsive" />
+              <img src="\images\mecky\laelprofile.jpg" class="img-responsive" />
             </div>
             <div class="desc-bride">
               <h3>Lael Endang Tricahyani</h3>
@@ -114,7 +114,7 @@
     <div
       id="fh5co-event"
       class="fh5co-bg"
-      style="background-image: url(images/img_bg_3.jpg)"
+      style="background-image: url(images/bgheader.jpg)"
     >
       <div class="overlay"></div>
       <div class="container">
@@ -201,7 +201,7 @@
               <li class="animate-box">
                 <div
                   class="timeline-badge"
-                  style="background-image: url(./images/fm.jpg)"
+                  style="background-image: url(./images/mecky/fm.jpg)"
                 ></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -220,7 +220,7 @@
               <li class="timeline-inverted animate-box">
                 <div
                   class="timeline-badge"
-                  style="background-image: url(images/fd.jpg)"
+                  style="background-image: url(images/mecky/fd.jpg)"
                 ></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -239,7 +239,7 @@
               <li class="animate-box">
                 <div
                   class="timeline-badge"
-                  style="background-image: url(./images/rl.jpg)"
+                  style="background-image: url(images/mecky/rl.jpg)"
                 ></div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -281,7 +281,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/1.jpg)"
+                style="background-image: url(images/mecky/bgheader.jpg)"
               >
                 <a href="images/1.jpg">
                   <div class="case-studies-summary"></div>
@@ -290,7 +290,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/2.jpg)"
+                style="background-image: url(images/mecky/DSC00197.JPG)"
               >
                 <a href="#" class="color-2">
                   <div class="case-studies-summary"></div>
@@ -300,7 +300,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/3.jpg)"
+                style="background-image: url(images/mecky/DSC00209.JPG)"
               >
                 <a href="#" class="color-3">
                   <div class="case-studies-summary"></div>
@@ -309,7 +309,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/4.jpg)"
+                style="background-image: url(images/mecky/DSC00211.JPG)"
               >
                 <a href="#" class="color-4">
                   <div class="case-studies-summary"></div>
@@ -319,7 +319,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/5.jpg)"
+                style="background-image: url(images/mecky/DSC00244.JPG)"
               >
                 <a href="#" class="color-3">
                   <div class="case-studies-summary"></div>
@@ -328,7 +328,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/6.jpg)"
+                style="background-image: url(images/mecky/DSC00217.JPG)"
               >
                 <a href="#" class="color-4">
                   <div class="case-studies-summary"></div>
@@ -338,7 +338,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/7.jpg)"
+                style="background-image: url(images/mecky/rl.jpg)"
               >
                 <a href="#" class="color-4">
                   <div class="case-studies-summary"></div>
@@ -348,7 +348,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/3.jpg)"
+                style="background-image: url(images/mecky/DSC00229.JPG)"
               >
                 <a href="#" class="color-5">
                   <div class="case-studies-summary"></div>
@@ -357,7 +357,7 @@
               <li
                 class="one-third animate-box"
                 data-animate-effect="fadeIn"
-                style="background-image: url(images/1.jpg)"
+                style="background-image: url(images/mecky/DSC00232.JPG)"
               >
                 <a href="#" class="color-6">
                   <div class="case-studies-summary"></div>
@@ -533,7 +533,6 @@
 </template>
 
 <script setup>
-
 import { ref, onMounted, nextTick } from "vue";
 import axios from "axios";
 
@@ -726,7 +725,6 @@ onMounted(() => {
   // Add click event listener to the document
   document.addEventListener("click", playAudio, { once: true });
 });
-
 </script>
 
 <style>
